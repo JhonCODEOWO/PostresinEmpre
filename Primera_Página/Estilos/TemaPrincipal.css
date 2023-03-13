@@ -64,6 +64,7 @@ body{
     width: 500px;
     float: left;
     position: top;
+    margin-bottom: 80px;
 }
 
 #apartadoImagen p{
@@ -259,4 +260,12 @@ footer{
     text-align: center;
     color: white;
     background-color: rgb(29, 27, 27);
+}
+
+/* Configuración adaptable para dispositivos móviles */
+@media screen and (max-width: 480px){
+    #apartadoImagem{
+        margin-bottom: 70px;
+        display: block;
+    }
 }
