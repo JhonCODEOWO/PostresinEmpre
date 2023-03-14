@@ -347,26 +347,30 @@ footer{
 }
 
 /* Configuración adaptable para dispositivos móviles */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 360px){
     .empresa{
         display: block;
         text-align: center;
     }
 
     #txt-nav{
-        display: block;
+        display:block
     }
 
     #txt-nav a{
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
         font-size: small;
+        text-align: center;
     }
 
     #explorar{
         text-align: justify;
-        margin-top: 160px;
-        margin-right: 30px;
-        margin-left: 30px;
-        width: 600px;
+        margin-top: 250px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: fit-content;
     }
 
     .empresa{
