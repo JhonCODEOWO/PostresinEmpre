@@ -370,7 +370,7 @@ footer{
         margin-top: 250px;
         margin-right: 10px;
         margin-left: 10px;
-        width: fit-content;
+        width: 100%;
     }
 
     .empresa{
