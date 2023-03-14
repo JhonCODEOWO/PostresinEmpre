@@ -41,7 +41,7 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url(../Imagenes/coffee-2698126_1280.jpg); 
     background-position: center;
-    background-size: contain;
+    background-size:auto;
     height: 100%;
     margin: 0;
     margin-bottom: 60px; /* Valor que da un espacio para el foooter, no cambiar a menos que se desee un footer más grande */
@@ -348,88 +348,50 @@ footer{
 
 /* Configuración adaptable para dispositivos móviles */
 @media screen and (max-width: 500px){
+
+
     .empresa{
+        margin-bottom: 0px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bolder;
         display: block;
         text-align: center;
     }
 
     #txt-nav{
+        width: 448px;
         display:block;
     }
 
     #txt-nav a{
+        margin-top: 20px;
         margin-right: 30px;
         display: flex;
         align-items: center;
-        font-size: small;
+        font-size: large;
         text-align: center;
     }
 
     #explorar{
         text-align: justify;
-        margin-top: 250px;
-        margin-right: 10px;
-        margin-left: 10px;
-        width: 100%;
-    }
-
-    .empresa{
-        font-size: xx-large;
-        font-family: 'Lato-Regular';
-        align-items:center;
-        color: white;
-    }
-    
-    #apartadoImagen{
-        visibility: hidden;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #apartadoImagen{
-        text-align: center;
-        margin-left: 40px;
-        color: white;
-        margin-top: 0px;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .empresa{
-        display: block;
-        text-align: center;
-    }
-
-    #txt-nav{
-        display:block
-    }
-
-    #txt-nav a{
-        margin-top: 10px;
-        margin-right: 30px;
-        display: flex;
-        align-items: center;
-        font-size: small;
-        text-align: center;
-    }
-
-    #explorar{
-        text-align: justify;
-        margin-top: 250px;
+        margin-top: 320px;
+        margin-bottom: 0;
         margin-right: 10px;
         margin-left: 10px;
         width: fit-content;
     }
 
-    .empresa{
-        font-size: xx-large;
-        font-family: 'Lato-Regular';
-        align-items:center;
-        color: white;
-    }
-    
     #apartadoImagen{
-        visibility: hidden;
+        color: white;
+        margin-left: 30px;
+        margin-top: 0px;
+        width: fit-content;
+    }
+
+    #apartadoImagen img{
+        display: flex;
+        align-items: center;
+        width: 300px;
     }
 }
