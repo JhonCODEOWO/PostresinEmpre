@@ -347,7 +347,7 @@ footer{
 }
 
 /* Configuración adaptable para dispositivos móviles */
-@media (max-width: 1200px){
+@media (max-width: 2000px){
     .empresa{
         display: block;
         text-align: center;
