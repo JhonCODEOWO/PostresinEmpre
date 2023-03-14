@@ -384,3 +384,13 @@ footer{
         visibility: hidden;
     }
 }
+
+@media screen and (max-width: 800px) {
+    #apartadoImagen{
+        text-align: center;
+        margin-left: 40px;
+        color: white;
+        margin-top: 0px;
+        display: block;
+    }
+}
