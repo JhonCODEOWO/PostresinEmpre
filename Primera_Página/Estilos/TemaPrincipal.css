@@ -348,18 +348,13 @@ footer{
 
 /* Configuración adaptable para dispositivos móviles */
 @media screen and (max-width: 500px){
-    .cab{
-        width: fit-content;
-    }
-
     .empresa{
         display: block;
         text-align: center;
     }
 
     #txt-nav{
-        width: fit-content;
-        display:block
+        display:block;
     }
 
     #txt-nav a{
