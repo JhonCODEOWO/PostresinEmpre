@@ -348,12 +348,17 @@ footer{
 
 /* Configuración adaptable para dispositivos móviles */
 @media screen and (max-width: 500px){
+    .cab{
+        width: fit-content;
+    }
+
     .empresa{
         display: block;
         text-align: center;
     }
 
     #txt-nav{
+        width: fit-content;
         display:block
     }
 
@@ -392,5 +397,44 @@ footer{
         color: white;
         margin-top: 0px;
         display: block;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .empresa{
+        display: block;
+        text-align: center;
+    }
+
+    #txt-nav{
+        display:block
+    }
+
+    #txt-nav a{
+        margin-top: 10px;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        font-size: small;
+        text-align: center;
+    }
+
+    #explorar{
+        text-align: justify;
+        margin-top: 250px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: fit-content;
+    }
+
+    .empresa{
+        font-size: xx-large;
+        font-family: 'Lato-Regular';
+        align-items:center;
+        color: white;
+    }
+    
+    #apartadoImagen{
+        visibility: hidden;
     }
 }
