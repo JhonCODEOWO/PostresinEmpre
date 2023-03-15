@@ -69,21 +69,6 @@ body{
     position: fixed;
 }
 
-#titulo{
-    /* CSS que maneja la apariencia del recuadro principal, encima de las opciones del menú*/
-    width: 100%;
-    font-family: Calibri;
-    font-size: xx-large;
-    background-color: black;
-    text-align: center;
-    color: white;
-}
-
-#titulo h1{
-    float: left;
-    margin: 0;
-}
-
 /*Fin de la personalización del header*/
 
 /*Personalización del contenido de la página de inicio*/
@@ -124,10 +109,6 @@ body{
 /*Fin de la personalización del contenido de la página inicio*/
 
 /*Personalización del id menú correspondiente al header*/
-
-#txtEmpresa{
-    display: flex;
-}
 
 .menu{
     text-align: right;
@@ -349,6 +330,14 @@ footer{
 /* Configuración adaptable para dispositivos móviles */
 @media screen and (max-width: 360px){
 
+    header{
+        width: 360px;
+    }
+
+    .Inicio{
+        width: 360px;
+    }
+
     .cab{
         width: 360px;
     }
@@ -389,19 +378,14 @@ footer{
     }
 
     .apartadoImagen{
+        background-color: aqua;
         color: white;
         margin-top: 0;
-        width: 360px;
+        width: 300px;
     }
 
     .apartadoImagen img{
         float: left;
-        width: 250px;
-    }
-}
-
-@media screen and (max-widrth: 390px) {
-    .empresa{
-        background-color: blue;
+        width: 200px;
     }
 }
