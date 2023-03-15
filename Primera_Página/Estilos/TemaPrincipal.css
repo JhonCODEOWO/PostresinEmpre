@@ -328,7 +328,7 @@ footer{
 }
 
 /* Configuración adaptable para dispositivos móviles */
-@media screen and (max-width: 360px){
+@media screen and (min-width: 360px){
 
     header{
         width: 360px;
