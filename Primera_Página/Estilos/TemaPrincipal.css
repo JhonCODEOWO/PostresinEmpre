@@ -357,10 +357,11 @@ footer{
         font-weight: bolder;
         display: block;
         text-align: center;
+        width: 390px;
     }
 
     #txt-nav{
-        width: 448px;
+        width: 390px;
         display:block;
     }
 
