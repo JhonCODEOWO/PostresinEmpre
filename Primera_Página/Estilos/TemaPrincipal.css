@@ -334,10 +334,6 @@ footer{
         width: 360px;
     }
 
-    .Inicio{
-        width: 360px;
-    }
-
     .cab{
         width: 360px;
     }
@@ -373,8 +369,17 @@ footer{
         margin-top: 280px;
         margin-bottom: 0;
         margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
         width: 360px;
+    }
+
+    .explorar h2{
+        padding-left: 50px;
+        width: 250px;
+    }
+    .explorar p{
+        padding-left: 50px;
+        width: 250px;
     }
 
     .apartadoImagen{
