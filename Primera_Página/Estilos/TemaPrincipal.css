@@ -57,14 +57,14 @@ body{
     color: white;
 }
 
-#txt-nav{
+ .txt-nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-#Inicio{
+.Inicio{
     width: 100%;
     position: fixed;
 }
@@ -87,7 +87,7 @@ body{
 /*Fin de la personalización del header*/
 
 /*Personalización del contenido de la página de inicio*/
-#explorar{
+.explorar{
     float: left;
     margin-top: 110px;
     margin-left: 20px;
@@ -95,7 +95,7 @@ body{
     margin-bottom: 60px;
 }
 
-#apartadoImagen{
+.apartadoImagen{
     margin-top: 120px;
     padding-top: 20px;
     padding-left: 50px;
@@ -107,13 +107,13 @@ body{
 }
 
 
-#apartadoImagen p{
+.apartadoImagen p{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
 
-#explorar p{
+.explorar p{
     margin-top: 2px;
     color: white;
     font-family: 'Roboto-Light';
@@ -129,17 +129,17 @@ body{
     display: flex;
 }
 
-#menu{
+.menu{
     text-align: right;
 }
 
-#menu a{
+.menu a{
     margin-right: 10px;
     padding: 10px;
     text-decoration: none;
 }
 
-#menu li{
+.menu li{
     display: inline;
 }
 
@@ -347,52 +347,61 @@ footer{
 }
 
 /* Configuración adaptable para dispositivos móviles */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 360px){
 
+    .cab{
+        width: 360px;
+    }
 
     .empresa{
+        margin-top: 10px;
         margin-bottom: 0px;
         font-family:Arial, Helvetica, sans-serif;
         font-size: 50px;
         font-weight: bolder;
         display: block;
         text-align: center;
-        width: 390px;
+        width: 360px;
     }
 
-    #txt-nav{
-        width: 390px;
+    .txt-nav{
+        width: 360px;
         display:block;
     }
 
-    #txt-nav a{
+    .txt-nav a{
         margin-top: 20px;
-        margin-right: 30px;
+        margin-right: 35px;
+        margin-left: 0px;
         display: flex;
         align-items: center;
         font-size: large;
         text-align: center;
     }
 
-    #explorar{
+    .explorar{
         text-align: justify;
-        margin-top: 320px;
+        margin-top: 280px;
         margin-bottom: 0;
         margin-right: 10px;
         margin-left: 10px;
         width: fit-content;
     }
 
-    #apartadoImagen{
+    .apartadoImagen{
         color: white;
-        margin-left: 30px;
-        margin-top: 0px;
-        width: fit-content;
+        margin-top: 0;
+        width: 360px;
     }
 
-    #apartadoImagen img{
-        display: flex;
-        align-items: center;
-        width: 300px;
+    .apartadoImagen img{
+        float: left;
+        width: 250px;
+    }
+}
+
+@media screen and (max-widrth: 390px) {
+    .empresa{
+        background-color: blue;
     }
 }
